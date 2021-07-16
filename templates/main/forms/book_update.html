@@ -1,0 +1,20 @@
+{% extends  'main/forms/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+  book update
+{% endblock title %}
+
+{% block form %}
+<div class="container mt-3">
+  <h1 class="h3 mb-3 font-weight-normal text-center">Book update</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Save</button><br>
+  </form>
+  <a href="/book/{{ book.pk }}/delete">
+    <button class="btn btn-lg btn-danger btn-block">Delete book</button>
+  </a>
+</div>
+{% endblock %}
