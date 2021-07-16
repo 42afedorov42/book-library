@@ -5,15 +5,5 @@ Service for loading, storing and downloading books.
 https://docs.docker.com/compose/install/    
 
 # Run project
-<p>Create a .env file with credetionals in the book-library directory</p>  
-<pre><code>sudo vim .env</code></pre>
-<pre><code>  
-SECRET_KEY=django-insecure-#37q)+nzo(pk&4j_4m6x#r=vuzb$xul!(d9#j1w#^^g*o&*-6j  
-DJANGO_ALLOWED_HOSTS=*  
-POSTGRES_DB=postgres  
-POSTGRES_USER=postgres  
-POSTGRES_PASSWORD=postgres  
-POSTGRES_HOST=db  
-POSTGRES_PORT=5432
-</code></pre>   
-<pre><code> sudo docker-compose up</code></pre>  
+<p>Сredetionals in the .env file</p>  
+<pre><code> sudo docker-compose up</code></pre>
