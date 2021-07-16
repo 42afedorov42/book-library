@@ -6,5 +6,5 @@ https://docs.docker.com/compose/install/
 
 # Run project
 <p>Сredetionals in the .env file.
-If you have another base in postgres - change them</p>  
+If you have another base in postgres - change them.</p>  
 <pre><code> sudo docker-compose up</code></pre>
