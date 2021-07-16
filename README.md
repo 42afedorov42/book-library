@@ -17,4 +17,4 @@ POSTGRES_PASSWORD=postgres
 POSTGRES_HOST=db  
 POSTGRES_PORT=5432
      
-<pre><code>sudo docker-compose up<pre><code>  
+sudo docker-compose up  
