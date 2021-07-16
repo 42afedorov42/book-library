@@ -5,5 +5,6 @@ Service for loading, storing and downloading books.
 https://docs.docker.com/compose/install/    
 
 # Run project
-<p>If you have another base in postgres - change сredetionals in the .env file</p>  
+<p>Сredetionals in the .env file.
+If you have another base in postgres - change them</p>  
 <pre><code> sudo docker-compose up</code></pre>
