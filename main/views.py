@@ -69,6 +69,7 @@ class BookSearch(ListView):
 
 
 def author_filter(request, pk):
+    '''Sort by author'''
     authors_dropdown = Author.objects.raw('SELECT DISTINCT ON (name) name, id FROM main_author;')
     author = Author.objects.filter(pk=pk)
     for a in author:
