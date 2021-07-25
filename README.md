@@ -8,7 +8,7 @@ for linux
 <pre><code>sudo chmod +x /usr/local/bin/docker-compose</code></pre>
 for other os: https://docs.docker.com/compose/install/  
 
-# Run project
+### Run project
 <p>Сredetionals in the .env file.
 If you have another base in postgres - change them.<br>
 PostgreSQL with postgres database is used by default.</p>  
