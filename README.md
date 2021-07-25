@@ -3,10 +3,10 @@ Service for loading, storing and downloading books.
 ![image](https://user-images.githubusercontent.com/84707086/126901325-1653a2ec-6f98-4275-890f-4a94024f18f3.png)
 
 ### Install Docker Compose  
-https://docs.docker.com/compose/install/  
 for linux 
 <pre><code>sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose</code></pre> 
 <pre><code>sudo chmod +x /usr/local/bin/docker-compose</code></pre>
+for other os: https://docs.docker.com/compose/install/  
 
 # Run project
 <p>Сredetionals in the .env file.
