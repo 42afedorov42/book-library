@@ -1,5 +1,6 @@
 ## book-library
-Service for loading, storing and downloading books.
+Service for loading, storing and downloading books.  
+![image](https://user-images.githubusercontent.com/84707086/126901325-1653a2ec-6f98-4275-890f-4a94024f18f3.png)
 
 ### Install Docker Compose  
 https://docs.docker.com/compose/install/  
@@ -14,4 +15,4 @@ PostgreSQL with postgres database is used by default.</p>
 <pre><code> sudo docker-compose up</code></pre>
 
 ### Create superuser
-<pre><code>docker exec -it book-library_web python manage.py createsuperuser</code></pre> 
+<pre><code>docker exec -it book-library_web python manage.py createsuperuser</code></pre>
